@@ -1,0 +1,108 @@
+// flexbox
+.d-flex {
+    display: flex;
+}
+
+// grid
+.d-grid {
+    display: grid;
+}
+
+// rows
+
+// columns
+
+// .col{
+//     &-1{
+//         grid-template-columns: ;
+//     }
+// }
+
+// alignment
+.jc{
+    &-center {
+        justify-content: center;
+    }
+    &-end {
+        justify-content: end;
+    }
+    &-start {
+        justify-content: start;
+    }
+    &-between {
+        justify-content: space-between;
+    }
+    &-around {
+        justify-content: space-around;
+    }
+    &-evenly {
+        justify-content: space-evenly;
+    }
+}
+.js{
+    &-start {
+        justify-self: start;
+    }
+    &-end {
+        justify-self: end;
+    }
+    &-center {
+        justify-self: center;
+    }
+    &-stretch {
+        justify-self: stretch;
+    }
+}
+.ji{
+    &-auto{
+        justify-items: auto;
+    }
+    &-start{
+        justify-items: start;
+    }
+    &-end {
+        justify-items: end;
+    }
+    &-center {
+        justify-items: center;
+    }
+    &-stretch {
+        justify-items: stretch;
+    }
+
+}
+.ai{
+    &-start {
+        align-items: start;
+    }
+    &-center {
+        align-items: center;
+    }
+    &-end {
+        align-items: end;
+    }
+    &-baseline {
+        align-items: baseline;
+    }
+    &-stretch {
+        align-items: stretch;
+    }
+}
+.as{
+    &-start {
+        align-self: start;
+    }
+    &-center {
+        align-self: center;
+    }
+    &-end {
+        align-self: end;
+    }
+    &-baseline {
+        align-self: baseline;
+    }
+    &-stretch {
+        align-self: stretch;
+    }
+     
+}

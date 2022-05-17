@@ -1,0 +1,63 @@
+ 
+
+// colors
+$color_primary: #006dd4;
+$color_primary-dark: #1f75fe;
+$color_primary-light: #87cefa;
+
+$color_secondary: #313131;
+$color_secondary-dark: #1b1b1b;
+$color_secondary-light: #4a4a4a;
+
+$color_warning: #ffb400;
+$color_warning-dark: #c99900;
+$color_warning-light: #ffd966;
+
+$color_success: #00b300;
+$color_success-dark: #008500;
+$color_success-light: #00e600;
+
+$color_danger: #ff0000;
+$color_danger-dark: #cc0000;
+$color_danger-light: #ed2939;
+
+$color_info: #00b3ff;
+$color_info-dark: #008cbf;
+$color_info-light: #00e6ff;
+
+$color_white: #ffffff;
+$color_light: #c0c0c0;
+$color_dark: #000000;
+
+// border
+$border-xs: 1px;
+$border-sm: 2px;
+$border-md: 3px;
+$border-lg: 4px;
+$border-xl: 5px;
+
+
+$border-sm-radius: 4px;
+$border-md-radius: 6px;
+$border-lg-radius: 8px;
+$border-xl-radius: 10px;
+ 
+// font
+$base-font-size: 1rem;
+$font-sm: $base-font-size * 0.875; 
+$font-md: $base-font-size * 1;
+$font-lg: $base-font-size * 2;
+$font-xl: $base-font-size * 3;
+
+// Box-shadow
+$shadow-sm: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+$shadow-md: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.075);
+$shadow-lg: 0 0.5rem 1rem rgba(0, 0, 0, 0.075);
+$shadow-xl: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.075);
+
+// breakpoints
+$breakpoint-xs: 0;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;

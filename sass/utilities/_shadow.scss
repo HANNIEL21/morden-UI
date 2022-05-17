@@ -1,0 +1,14 @@
+.shadow{
+    &-sm{
+        box-shadow: $shadow-sm;
+    }
+    &-md{
+        box-shadow: $shadow-md;
+    }
+    &-lg{
+        box-shadow: $shadow-lg;
+    }
+    &-xl{
+        box-shadow: $shadow-xl;
+    }
+}

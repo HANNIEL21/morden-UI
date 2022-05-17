@@ -1,0 +1,23 @@
+// Basic Reset
+@import "base";
+
+// Variables
+@import "variable";
+
+// utilities(colors, spacing, typography, etc)
+@import "utilities/shadow";
+@import "utilities/border";
+@import "utilities/bgColors";
+@import "utilities/textColors";
+@import "utilities/unit";
+
+// layout
+@import "layout";
+
+
+// components(buttons, cards, navs, etc)
+@import "components/card";
+@import "components/containers";
+
+
+

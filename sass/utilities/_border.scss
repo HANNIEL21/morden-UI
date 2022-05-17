@@ -1,0 +1,67 @@
+// border
+.border{
+    border: $border-xs solid $color_dark;
+    &-sm{
+        border: $border-sm solid $color_dark;
+    }
+    &-md{
+        border: $border-md solid $color_dark;
+    }
+    &-lg{
+        border: $border-lg solid $color_dark;
+    }
+    &-xl{
+        border: $border-xl solid $color_dark;
+    }
+}
+// dotted-border
+.border-dotted{
+    border: $border-xs dotted $color_dark;
+    &-sm{
+        border: $border-sm dotted $color_dark;
+    }
+    &-md{
+        border: $border-md dotted $color_dark;
+    }
+    &-lg{
+        border: $border-lg dotted $color_dark;
+    }
+    &-xl{
+        border: $border-xl dotted $color_dark;
+    }
+}
+// dashed-border
+.border-dashed{
+    border: $border-xs dashed $color_dark;
+    &-sm{
+        border: $border-sm dashed $color_dark;
+    }
+    &-md{
+        border: $border-md dashed $color_dark;
+    }
+    &-lg{
+        border: $border-lg dashed $color_dark;
+    }
+    &-xl{
+        border: $border-xl dashed $color_dark;
+    }
+}
+// border-radius
+.br{
+    border-radius: $border-sm-radius;
+    &-1{
+        border-radius: $border-md-radius;
+    }
+    &-2{
+        border-radius: $border-lg-radius;
+    }
+    &-3{
+        border-radius: $border-xl-radius;
+    }
+    &-4{
+        border-radius: $border-xl-radius * 2;
+    }
+    &-5{
+        border-radius: $border-xl-radius * 3;
+    }
+}

@@ -1,0 +1,50 @@
+.bg-primary {
+    background-color: $color_primary;
+    &-soft {
+        background-color: $color_primary-light;
+    }
+    &-dark {
+        background-color: $color_primary-dark;
+    }
+}
+
+.bg-secondary {
+    background-color: $color_secondary;
+    &-soft {
+        background-color: $color_secondary-light;
+    }
+    &-3dark {
+        background-color: $color_secondary-dark;
+    }
+}
+
+.bg-warning {
+    background-color: $color_warning;
+    &-soft {
+        background-color: $color_warning-light;
+    }
+    &-dark {
+        background-color: $color_warning-dark;
+    }
+}
+
+.bg-danger {
+    background-color: $color_danger;
+    &-soft {
+        background-color: $color_danger-light;
+    }
+    &-dark {
+        background-color: $color_danger-dark;
+    }
+}
+
+
+.bg-info {
+    background-color: $color_info;
+    &-soft {
+        background-color: $color_info-light;
+    }
+    &-dark {
+        background-color: $color_info-dark;
+    }
+}
