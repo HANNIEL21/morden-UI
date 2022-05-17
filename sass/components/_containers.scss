@@ -1,25 +1,11 @@
 .box{
-    padding: 0 50px 0 50px;
+    width: 80%;
+    padding: 0 20px 0 20px;
     margin: 0 auto;
 
-    &-sm{
-        max-width: 1200px;
-        margin: 0 auto;
-    }
-    &-md{
-        max-width: 1600px;
-        margin: 0 auto;
-    }
-    &-lg{
-        max-width: 1200px;
-        margin: 0 auto;
-    }
-    &-xl{
-        max-width: 1200px;
-        margin: 0 auto;
-    }
     &-full{
         max-width: 100%;
+        padding: 0 20px 0 20px;
         margin: 0 auto;
     }
 }
