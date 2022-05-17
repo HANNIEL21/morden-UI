@@ -396,26 +396,12 @@ a {
 }
 
 .box {
-  padding: 0 50px 0 50px;
+  width: 80%;
+  padding: 0 20px 0 20px;
   margin: 0 auto;
 }
-.box_sm {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-.box_md {
-  max-width: 1600px;
-  margin: 0 auto;
-}
-.box_lg {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-.box_xl {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-.box_full {
+.box-full {
   max-width: 100%;
+  padding: 0 20px 0 20px;
   margin: 0 auto;
 }
