@@ -2,23 +2,23 @@
     padding: 0 50px 0 50px;
     margin: 0 auto;
 
-    &_sm{
+    &-sm{
         max-width: 1200px;
         margin: 0 auto;
     }
-    &_md{
+    &-md{
         max-width: 1600px;
         margin: 0 auto;
     }
-    &_lg{
+    &-lg{
         max-width: 1200px;
         margin: 0 auto;
     }
-    &_xl{
+    &-xl{
         max-width: 1200px;
         margin: 0 auto;
     }
-    &_full{
+    &-full{
         max-width: 100%;
         margin: 0 auto;
     }

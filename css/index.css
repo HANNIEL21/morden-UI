@@ -399,23 +399,23 @@ a {
   padding: 0 50px 0 50px;
   margin: 0 auto;
 }
-.box_sm {
+.box-sm {
   max-width: 1200px;
   margin: 0 auto;
 }
-.box_md {
+.box-md {
   max-width: 1600px;
   margin: 0 auto;
 }
-.box_lg {
+.box-lg {
   max-width: 1200px;
   margin: 0 auto;
 }
-.box_xl {
+.box-xl {
   max-width: 1200px;
   margin: 0 auto;
 }
-.box_full {
+.box-full {
   max-width: 100%;
   margin: 0 auto;
 }
