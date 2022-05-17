@@ -1,0 +1,27 @@
+// font weight
+
+.fw{
+    &-light{
+        font-weight: 300;
+        font-size: small;
+    }
+    
+    &-normal{
+        font-weight: 500;
+        font-size: medium;
+    }
+    
+    &-bold{
+        font-weight: 900;
+        font-size: large;
+    }
+}
+
+
+// font size
+
+.fs{
+    &-1{
+        font-size: 1rem;
+    }
+}
