@@ -6,125 +6,57 @@
 // grid
 .d-grid {
     display: grid;
-    &-1{
-        grid-template: 1 1;
-    }
-    &-2{
-        grid-template: 2 2;
-    }
-    &-3{
-        grid-template: 3 3;
-    }
-    &-4{
-        grid-template: 4 4;
-    }
-    &-5{
-        grid-template: 5 5;
-    }
-    &-6{
-        grid-template: 6 6;
-    }
-    &-7{
-        grid-template: 7 7;
-    }
-    &-8{
-        grid-template: 8 8;
-    }
-    &-9{
-        grid-template: 9 9;
-    }
-    &-10{
-        grid-template: 10 10;
-    }
-    &-11{
-        grid-template: 11 11;
-    }
-    &-12{
-        grid-template: 12 12;
-    }
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-columns: auto;
 }
 
 // rows
-.row{
-    &-1{
-        grid-template-rows: 1;
-    }
-    &-2{
-        grid-template-rows: 2;
-    }
-    &-3{
-        grid-template-rows: 3;
-    }
-    &-4{
-        grid-template-rows: 4;
-    }
-    &-5{
-        grid-template-rows: 5;
-    }
-    &-6{
-        grid-template-rows: 6;
-    }
-    &-7{
-        grid-template-rows: 7;
-    }
-    &-8{
-        grid-template-rows: 8;
-    }
-    &-9{
-        grid-template-rows: 9;
-    }
-    &-10{
-        grid-template-rows: 10;
-    }
-    &-11{
-        grid-template-rows: 11;
-    }
-    &-12{
-        grid-template-rows: 12;
-    }
+.row {
+    grid-row: 1;
 }
 // columns
-.col{
-    &-1{
+.col {
+    &-1 {
+        display: grid;
         grid-template-columns: 1;
     }
-    &-2{
+    &-2 {
         grid-template-columns: 2;
     }
-    &-3{
+    &-3 {
         grid-template-columns: 3;
     }
-    &-4{
+    &-4 {
         grid-template-columns: 4;
     }
-    &-5{
+    &-5 {
         grid-template-columns: 5;
     }
-    &-6{
-        grid-template-columns: 6;
+    &-6 {
+        
     }
-    &-7{
+    &-7 {
         grid-template-columns: 7;
     }
-    &-8{
+    &-8 {
         grid-template-columns: 8;
     }
-    &-9{
+    &-9 {
         grid-template-columns: 9;
     }
-    &-10{
+    &-10 {
         grid-template-columns: 10;
     }
-    &-11{
+    &-11 {
         grid-template-columns: 11;
     }
-    &-12{
+    &-12 {
         grid-template-columns: 12;
     }
 }
 
 // alignment
-.jc{
+.jc {
     &-center {
         justify-content: center;
     }
@@ -144,7 +76,7 @@
         justify-content: space-evenly;
     }
 }
-.js{
+.js {
     &-start {
         justify-self: start;
     }
@@ -158,11 +90,11 @@
         justify-self: stretch;
     }
 }
-.ji{
-    &-auto{
+.ji {
+    &-auto {
         justify-items: auto;
     }
-    &-start{
+    &-start {
         justify-items: start;
     }
     &-end {
@@ -174,9 +106,8 @@
     &-stretch {
         justify-items: stretch;
     }
-
 }
-.ai{
+.ai {
     &-start {
         align-items: start;
     }
@@ -193,7 +124,7 @@
         align-items: stretch;
     }
 }
-.as{
+.as {
     &-start {
         align-self: start;
     }
@@ -209,5 +140,4 @@
     &-stretch {
         align-self: stretch;
     }
-     
 }

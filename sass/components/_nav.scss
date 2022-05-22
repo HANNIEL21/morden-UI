@@ -1,16 +1,5 @@
 nav[component="nav"]{
-    &-sm{
-        height: 3em;
-    }
-    &-md{
-        height: 4em;
-    }
-    &-lg{
-        height: 5em;
-    }
-    &-xl{
-        height: 6em;
-    }
+    height: 3rem;
 }
 
 .nav-links{
@@ -26,9 +15,5 @@ nav[component="nav"]{
 
     &-bold{
         font-weight: bold;
-    }
-
-    .nav-link{
-        
     }
 }

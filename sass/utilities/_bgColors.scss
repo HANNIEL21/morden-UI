@@ -48,3 +48,11 @@
         background-color: $color_info-dark;
     }
 }
+
+.bg-transparent {
+    background-color: transparent;
+}
+
+.bg-g1{
+    background-image: linear-gradient(to right, $color_primary, $color_secondary);
+}

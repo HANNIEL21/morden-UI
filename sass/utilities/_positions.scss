@@ -1,0 +1,49 @@
+.position{
+    &-sticky{
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    &-fixed{
+        position: fixed;
+        top: 0;
+        z-index: 1;
+    }
+
+    &-relative{
+        position: relative;
+    }
+
+    &-absolute{
+        position: absolute;
+    }
+
+    &-static{
+        position: static;
+    }
+
+    &-tr{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    &-tl{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    &-br{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    &-bl{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+}
