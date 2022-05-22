@@ -13,7 +13,7 @@
     &-soft {
         color: $color_secondary-light;
     }
-    &-3dark {
+    &-dark {
         color: $color_secondary-dark;
     }
 }
@@ -47,4 +47,8 @@
     &-dark {
         color: $color_info-dark;
     }
+}
+
+.text-light {
+    color: $color_white;
 }

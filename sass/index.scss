@@ -12,13 +12,14 @@
 @import "utilities/unit";
 @import "utilities/font";
 
-// layout
-@import "layout";
-
-
 // components(buttons, cards, navs, etc)
 @import "components/card";
 @import "components/containers";
+@import "components/button";
+@import "components/nav";
+
+// layout
+@import "layout";
 
 
 

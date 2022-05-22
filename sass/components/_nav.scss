@@ -1,0 +1,34 @@
+nav[component="nav"]{
+    &-sm{
+        height: 3em;
+    }
+    &-md{
+        height: 4em;
+    }
+    &-lg{
+        height: 5em;
+    }
+    &-xl{
+        height: 6em;
+    }
+}
+
+.nav-links{
+    width: max-content;
+    &-row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    &-col{
+        display: flex;
+    }
+
+    &-bold{
+        font-weight: bold;
+    }
+
+    .nav-link{
+        
+    }
+}

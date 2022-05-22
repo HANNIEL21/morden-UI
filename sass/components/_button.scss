@@ -1,0 +1,88 @@
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+
+    &-primary{
+        background-color:$color_primary;
+        border-color: $color_primary;
+
+        &:hover{
+            background-color: $color_white;
+            border-color: $color_primary_dark;
+            color: $color_primary;
+        }
+    }
+
+    &-secondary{
+        background-color: $color_secondary;
+        border-color: $color_secondary;
+
+        &:hover{
+            background-color: $color_white;
+            border-color: $color_secondary_dark;
+            color: $color_secondary;
+        }
+    }
+
+    &-danger{
+        background-color: $color_danger;
+        border-color: $color_danger;
+
+        &:hover{
+            background-color: $color_white;
+            border-color: $color_danger_dark;
+            color: $color_danger;
+        }
+        
+    }
+
+    &-success{
+        background-color: $color_success;
+        border-color: $color_success;
+
+        &:hover{
+            background-color: $color_white;
+            border-color: $color_success_dark;
+            color: $color_success;
+        }
+    }
+
+    &-light{
+        background-color: $color_white;
+        border-color: transparent;
+
+        &:hover{
+            background-color: $color_white;
+            border-color: $color_success_dark;
+            color: $color_primary;
+        }
+    }
+
+    &-info{
+        background-color: $color_info;
+        border-color: $color_info;
+
+        &:hover{
+            background-color: $color_white;
+            border-color: $color_primary;
+            color: $color_info;
+        }
+    }
+
+    &-warning{
+        background-color: $color_warning;
+        border-color: $color_warning;
+
+        &:hover{
+            background-color: $color_white;
+            border-color: $color_warning_dark;
+            color: $color_warning;
+        }
+    }
+}

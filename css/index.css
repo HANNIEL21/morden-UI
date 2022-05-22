@@ -166,7 +166,7 @@ a {
 .text-secondary-soft {
   color: #4a4a4a;
 }
-.text-secondary-3dark {
+.text-secondary-dark {
   color: #1b1b1b;
 }
 
@@ -198,6 +198,10 @@ a {
 }
 .text-info-dark {
   color: #008cbf;
+}
+
+.text-light {
+  color: #ffffff;
 }
 
 .min-vh-25 {
@@ -290,6 +294,44 @@ a {
   width: 100%;
 }
 
+.p-1 {
+  padding: 1em;
+}
+.p-2 {
+  padding: 2em;
+}
+.p-3 {
+  padding: 3em;
+}
+.p-4 {
+  padding: 4em;
+}
+.p-5 {
+  padding: 5em;
+}
+.p-6 {
+  padding: 6em;
+}
+
+.m-1 {
+  margin: 1em;
+}
+.m-2 {
+  margin: 2em;
+}
+.m-3 {
+  margin: 3em;
+}
+.m-4 {
+  margin: 4em;
+}
+.m-5 {
+  margin: 5em;
+}
+.m-6 {
+  margin: 6em;
+}
+
 .fw-light {
   font-weight: 300;
   font-size: small;
@@ -307,12 +349,233 @@ a {
   font-size: 1rem;
 }
 
+.box {
+  width: 80%;
+  padding: 0 20px 0 20px;
+  margin: 0 auto;
+}
+.box-full {
+  max-width: 100%;
+  padding: 0 20px 0 20px;
+  margin: 0 auto;
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.btn-primary {
+  background-color: #006dd4;
+  border-color: #006dd4;
+}
+.btn-primary:hover {
+  background-color: #ffffff;
+  border-color: #1f75fe;
+  color: #006dd4;
+}
+.btn-secondary {
+  background-color: #313131;
+  border-color: #313131;
+}
+.btn-secondary:hover {
+  background-color: #ffffff;
+  border-color: #1b1b1b;
+  color: #313131;
+}
+.btn-danger {
+  background-color: #ff0000;
+  border-color: #ff0000;
+}
+.btn-danger:hover {
+  background-color: #ffffff;
+  border-color: #cc0000;
+  color: #ff0000;
+}
+.btn-success {
+  background-color: #00b300;
+  border-color: #00b300;
+}
+.btn-success:hover {
+  background-color: #ffffff;
+  border-color: #008500;
+  color: #00b300;
+}
+.btn-light {
+  background-color: #ffffff;
+  border-color: transparent;
+}
+.btn-light:hover {
+  background-color: #ffffff;
+  border-color: #008500;
+  color: #006dd4;
+}
+.btn-info {
+  background-color: #00b3ff;
+  border-color: #00b3ff;
+}
+.btn-info:hover {
+  background-color: #ffffff;
+  border-color: #006dd4;
+  color: #00b3ff;
+}
+.btn-warning {
+  background-color: #ffb400;
+  border-color: #ffb400;
+}
+.btn-warning:hover {
+  background-color: #ffffff;
+  border-color: #c99900;
+  color: #ffb400;
+}
+
+nav-sm {
+  height: 3em;
+}
+nav-md {
+  height: 4em;
+}
+nav-lg {
+  height: 5em;
+}
+nav-xl {
+  height: 6em;
+}
+
+.nav-links {
+  width: max-content;
+}
+.nav-links-row {
+  display: flex;
+  flex-direction: column;
+}
+.nav-links-col {
+  display: flex;
+}
+.nav-links-bold {
+  font-weight: bold;
+}
 .d-flex {
   display: flex;
 }
 
 .d-grid {
   display: grid;
+}
+.d-grid-1 {
+  grid-template: 1 1;
+}
+.d-grid-2 {
+  grid-template: 2 2;
+}
+.d-grid-3 {
+  grid-template: 3 3;
+}
+.d-grid-4 {
+  grid-template: 4 4;
+}
+.d-grid-5 {
+  grid-template: 5 5;
+}
+.d-grid-6 {
+  grid-template: 6 6;
+}
+.d-grid-7 {
+  grid-template: 7 7;
+}
+.d-grid-8 {
+  grid-template: 8 8;
+}
+.d-grid-9 {
+  grid-template: 9 9;
+}
+.d-grid-10 {
+  grid-template: 10 10;
+}
+.d-grid-11 {
+  grid-template: 11 11;
+}
+.d-grid-12 {
+  grid-template: 12 12;
+}
+
+.row-1 {
+  grid-template-rows: 1;
+}
+.row-2 {
+  grid-template-rows: 2;
+}
+.row-3 {
+  grid-template-rows: 3;
+}
+.row-4 {
+  grid-template-rows: 4;
+}
+.row-5 {
+  grid-template-rows: 5;
+}
+.row-6 {
+  grid-template-rows: 6;
+}
+.row-7 {
+  grid-template-rows: 7;
+}
+.row-8 {
+  grid-template-rows: 8;
+}
+.row-9 {
+  grid-template-rows: 9;
+}
+.row-10 {
+  grid-template-rows: 10;
+}
+.row-11 {
+  grid-template-rows: 11;
+}
+.row-12 {
+  grid-template-rows: 12;
+}
+
+.col-1 {
+  grid-template-columns: 1;
+}
+.col-2 {
+  grid-template-columns: 2;
+}
+.col-3 {
+  grid-template-columns: 3;
+}
+.col-4 {
+  grid-template-columns: 4;
+}
+.col-5 {
+  grid-template-columns: 5;
+}
+.col-6 {
+  grid-template-columns: 6;
+}
+.col-7 {
+  grid-template-columns: 7;
+}
+.col-8 {
+  grid-template-columns: 8;
+}
+.col-9 {
+  grid-template-columns: 9;
+}
+.col-10 {
+  grid-template-columns: 10;
+}
+.col-11 {
+  grid-template-columns: 11;
+}
+.col-12 {
+  grid-template-columns: 12;
 }
 
 .jc-center {
@@ -393,15 +656,4 @@ a {
 }
 .as-stretch {
   align-self: stretch;
-}
-
-.box {
-  width: 80%;
-  padding: 0 20px 0 20px;
-  margin: 0 auto;
-}
-.box-full {
-  max-width: 100%;
-  padding: 0 20px 0 20px;
-  margin: 0 auto;
 }
