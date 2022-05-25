@@ -11,6 +11,4 @@ morden-ui is a smart css framework built with HTML, Gulp, SCSS and JavaScript.
 
 
 * Links
-
-
-** Github Page https://hanniel21.github.io/morden-UI
+  * Github Page https://hanniel21.github.io/morden-UI
