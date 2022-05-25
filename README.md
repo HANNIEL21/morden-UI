@@ -1,3 +1,16 @@
 # morden-UI
-morden-ui is a smart css framework that makes building your web pages faster
-* Github page link https://hanniel21.github.io/morden-UI
+morden-ui is a smart css framework built with HTML, Gulp, SCSS and JavaScript.
+### TABLE OF CONTENT
+* General info
+
+
+* Technologies
+
+
+* Setup
+
+
+* Links
+
+
+https://hanniel21.github.io/morden-UI
