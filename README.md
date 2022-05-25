@@ -5,6 +5,10 @@ morden-ui is a smart css framework built with HTML, Gulp, SCSS and JavaScript.
 
 
 * Technologies
+   * HTML
+   * Scss
+   * Gulp
+   * JavaScript
 
 
 * Setup
