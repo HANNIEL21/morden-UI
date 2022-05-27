@@ -1,19 +1,7 @@
-nav[component="nav"]{
+nav[component="nav-sm"]{
     height: 3rem;
-}
-
-.nav-links{
-    width: max-content;
-    &-row{
-        display: flex;
-        flex-direction: column;
-    }
-
-    &-col{
-        display: flex;
-    }
-
-    &-bold{
-        font-weight: bold;
-    }
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

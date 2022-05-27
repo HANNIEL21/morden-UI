@@ -6,7 +6,28 @@
     text-align: center;
     cursor: pointer;
     border: 1px solid transparent;
-    border-radius: 4px;
+
+    &-rounded{
+        &-1{
+            border-radius: 5px;
+        }
+
+        &-2{
+            border-radius: 10px;
+        }
+
+        &-3{
+            border-radius: 20px;
+        }
+
+        &-4{
+            border-radius: 30px;
+        }
+
+        &-5{
+            border-radius: 40px;
+        }
+    }
 
     &-primary{
         background-color:$color_primary;
@@ -19,6 +40,17 @@
         }
     }
 
+    &-outline-primary{
+        background-color: transparent;
+        border-color: $color_primary;
+        color: $color_primary;
+
+        &:hover{
+            background-color: $color_primary;
+            color: $color_white;
+        }
+    }
+
     &-secondary{
         background-color: $color_secondary;
         border-color: $color_secondary;
@@ -27,6 +59,17 @@
             background-color: $color_white;
             border-color: $color_secondary_dark;
             color: $color_secondary;
+        }
+    }
+
+    &-outline-secondary{
+        background-color: transparent;
+        border-color: $color_secondary;
+        color: $color_secondary;
+
+        &:hover{
+            background-color: $color_secondary;
+            color: $color_white;
         }
     }
 
@@ -42,6 +85,17 @@
         
     }
 
+    &-outline-danger{
+        background-color: transparent;
+        border-color: $color_danger;
+        color: $color_danger;
+
+        &:hover{
+            background-color: $color_danger;
+            color: $color_white;
+        }
+    }
+
     &-success{
         background-color: $color_success;
         border-color: $color_success;
@@ -53,14 +107,36 @@
         }
     }
 
+    &-outline-success{
+        background-color: transparent;
+        border-color: $color_success;
+        color: $color_success;
+
+        &:hover{
+            background-color: $color_success;
+            color: $color_white;
+        }
+    }
+
     &-light{
         background-color: $color_white;
         border-color: transparent;
 
         &:hover{
             background-color: $color_white;
-            border-color: $color_success_dark;
-            color: $color_primary;
+            border: 2px solid $color_dark;
+            color: $color_dark;
+        }
+    }
+
+    &-outline-light{
+        background-color: transparent;
+        border-color: $color_light;
+        color: $color_light;
+
+        &:hover{
+            background-color: $color_light;
+            color: $color_dark;
         }
     }
 
@@ -75,6 +151,17 @@
         }
     }
 
+    &-outline-info{
+        background-color: transparent;
+        border-color: $color_info;
+        color: $color_info;
+
+        &:hover{
+            background-color: $color_info;
+            color: $color_white;
+        }
+    }
+
     &-warning{
         background-color: $color_warning;
         border-color: $color_warning;
@@ -83,6 +170,17 @@
             background-color: $color_white;
             border-color: $color_warning_dark;
             color: $color_warning;
+        }
+    }
+
+    &-outline-warning{
+        background-color: transparent;
+        border-color: $color_warning;
+        color: $color_warning;
+
+        &:hover{
+            background-color: $color_warning;
+            color: $color_white;
         }
     }
 }

@@ -1,57 +1,55 @@
-// flexbox
-.d-flex {
+// flex
+.d-flex{
     display: flex;
 }
+
+
 
 // grid
 .d-grid {
     display: grid;
-    grid-auto-rows: minmax(100px, auto);
-    grid-template-columns: auto;
 }
-
 // rows
-.row {
-    grid-row: 1;
+.row{
+    grid-auto-rows: minmax(2em, auto);
 }
 // columns
-.col {
+.col{
     &-1 {
-        display: grid;
-        grid-template-columns: 1;
+        grid-template-columns: repeat(12, 1fr);
     }
     &-2 {
-        grid-template-columns: 2;
+        grid-template-columns: repeat(6, 1fr);
     }
     &-3 {
-        grid-template-columns: 3;
+        grid-template-columns: repeat(4, 1fr);
     }
     &-4 {
-        grid-template-columns: 4;
+        grid-template-columns: repeat(3, 1fr);
     }
     &-5 {
-        grid-template-columns: 5;
+        grid-template-columns: 5fr, 7fr;
     }
     &-6 {
-        
+        grid-template-columns: 6fr 6fr;
     }
     &-7 {
-        grid-template-columns: 7;
+        grid-template-columns: 7fr 5fr;
     }
     &-8 {
-        grid-template-columns: 8;
+        grid-template-columns: 8fr 4fr;
     }
     &-9 {
-        grid-template-columns: 9;
+        grid-template-columns: 9fr 3fr;
     }
     &-10 {
-        grid-template-columns: 10;
+        grid-template-columns: 10fr 2fr;
     }
     &-11 {
-        grid-template-columns: 11;
+        grid-template-columns: 11fr 1fr;
     }
     &-12 {
-        grid-template-columns: 12;
+        grid-template-columns: 1fr;
     }
 }
 

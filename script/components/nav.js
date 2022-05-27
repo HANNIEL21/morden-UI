@@ -1,2 +1,5 @@
-export const nav = document.querySelector("nav");
-nav.setAttribute("component", "nav")
+const nav = document.getElementsByTagName("nav")[0];
+nav.setAttribute("component", "nav");
+
+
+export default nav
