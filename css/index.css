@@ -818,131 +818,62 @@ aside[component=sidebar-right] {
   height: 100vh;
 }
 
-.d-flex {
-  display: flex;
-}
-
-.d-grid {
+.grid .grid-container {
   display: grid;
-}
-
-.row {
-  grid-auto-rows: minmax(2em, auto);
-}
-
-.col-1 {
   grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows: minmax(100px, auto);
 }
-.col-2 {
-  grid-template-columns: repeat(6, 1fr);
+.grid-col-1 {
+  grid-column: span 1;
 }
-.col-3 {
-  grid-template-columns: repeat(4, 1fr);
+.grid-col-2 {
+  grid-column: span 2;
 }
-.col-4 {
-  grid-template-columns: repeat(3, 1fr);
+.grid-col-3 {
+  grid-column: span 3;
 }
-.col-5 {
-  grid-template-columns: 5fr, 7fr;
+.grid-col-4 {
+  grid-column: span 4;
 }
-.col-6 {
-  grid-template-columns: 6fr 6fr;
+.grid-col-5 {
+  grid-column: span 5;
 }
-.col-7 {
-  grid-template-columns: 7fr 5fr;
+.grid-col-6 {
+  grid-column: span 6;
 }
-.col-8 {
-  grid-template-columns: 8fr 4fr;
+.grid-col-7 {
+  grid-column: span 7;
 }
-.col-9 {
-  grid-template-columns: 9fr 3fr;
+.grid-col-8 {
+  grid-column: span 8;
 }
-.col-10 {
-  grid-template-columns: 10fr 2fr;
+.grid-col-9 {
+  grid-column: span 9;
 }
-.col-11 {
-  grid-template-columns: 11fr 1fr;
+.grid-col-10 {
+  grid-column: span 10;
 }
-.col-12 {
-  grid-template-columns: 1fr;
+.grid-col-11 {
+  grid-column: span 11;
 }
-
-.jc-center {
-  justify-content: center;
+.grid-col-12 {
+  grid-column: span 12;
 }
-.jc-end {
-  justify-content: end;
+.grid-gap-1 {
+  grid-gap: 10px;
 }
-.jc-start {
-  justify-content: start;
+.grid-gap-2 {
+  grid-gap: 20px;
 }
-.jc-between {
-  justify-content: space-between;
+.grid-gap-3 {
+  grid-gap: 30px;
 }
-.jc-around {
-  justify-content: space-around;
+.grid-gap-4 {
+  grid-gap: 40px;
 }
-.jc-evenly {
-  justify-content: space-evenly;
+.grid-gap-5 {
+  grid-gap: 50px;
 }
-
-.js-start {
-  justify-self: start;
-}
-.js-end {
-  justify-self: end;
-}
-.js-center {
-  justify-self: center;
-}
-.js-stretch {
-  justify-self: stretch;
-}
-
-.ji-auto {
-  justify-items: auto;
-}
-.ji-start {
-  justify-items: start;
-}
-.ji-end {
-  justify-items: end;
-}
-.ji-center {
-  justify-items: center;
-}
-.ji-stretch {
-  justify-items: stretch;
-}
-
-.ai-start {
-  align-items: start;
-}
-.ai-center {
-  align-items: center;
-}
-.ai-end {
-  align-items: end;
-}
-.ai-baseline {
-  align-items: baseline;
-}
-.ai-stretch {
-  align-items: stretch;
-}
-
-.as-start {
-  align-self: start;
-}
-.as-center {
-  align-self: center;
-}
-.as-end {
-  align-self: end;
-}
-.as-baseline {
-  align-self: baseline;
-}
-.as-stretch {
-  align-self: stretch;
+.grid-gap-6 {
+  grid-gap: 60px;
 }
