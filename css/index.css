@@ -609,22 +609,37 @@ a:hover {
 }
 
 @media screen and (min-width: 320px) {
-  .box-sm {
+  .box {
     width: 100%;
+    padding: 0 10px 0 10px;
+    margin: 0 auto;
+  }
+  .box-full {
+    max-width: 100%;
     padding: 0 20px 0 20px;
     margin: 0 auto;
   }
 }
 @media screen and (min-width: 768px) {
-  .box-md {
+  .box {
     width: 80%;
+    padding: 0 20px 0 20px;
+    margin: 0 auto;
+  }
+  .box-full {
+    max-width: 100%;
     padding: 0 20px 0 20px;
     margin: 0 auto;
   }
 }
 @media screen and (min-width: 1024) {
-  .box-lg {
+  .box {
     width: 80%;
+    padding: 0 20px 0 20px;
+    margin: 0 auto;
+  }
+  .box-full {
+    max-width: 100%;
     padding: 0 20px 0 20px;
     margin: 0 auto;
   }
