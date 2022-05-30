@@ -880,3 +880,29 @@ aside[component=sidebar-right] {
 .grid-gap-6 {
   grid-gap: 60px;
 }
+
+.ailgn-start {
+  display: grid;
+  align-items: start;
+}
+.ailgn-center {
+  display: grid;
+  align-items: center;
+}
+.ailgn-end {
+  display: grid;
+  align-items: end;
+}
+
+.justify-start {
+  display: grid;
+  justify-content: start;
+}
+.justify-center {
+  display: grid;
+  justify-content: center;
+}
+.justify-end {
+  display: grid;
+  justify-content: end;
+}

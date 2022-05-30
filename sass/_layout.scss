@@ -88,3 +88,40 @@
     }
 }
 
+// align-items
+.ailgn{
+
+    &-start{
+        display: grid;
+        align-items: start;
+    }
+
+    &-center{
+        display: grid;
+        align-items: center;
+    }
+
+    &-end{
+        display: grid;
+        align-items: end;
+    }
+}
+
+// justifycontent
+
+.justify{
+    &-start{
+        display: grid;
+        justify-content: start;
+    }
+
+    &-center{
+        display: grid;
+        justify-content: center;
+    }
+
+    &-end{
+        display: grid;
+        justify-content: end;
+    }
+}
