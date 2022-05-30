@@ -821,7 +821,10 @@ aside[component=sidebar-right] {
 .grid .grid-container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-auto-rows: minmax(100px, auto);
+}
+.grid-row {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
 }
 .grid-col-1 {
   grid-column: span 1;
