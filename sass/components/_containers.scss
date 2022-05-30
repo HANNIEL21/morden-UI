@@ -10,7 +10,7 @@
     }
 }
 
-@media screen and (max-width: 480px){
+@media screen and (min-width: 320px){
     .box-sm{
         width: 100%;
         padding: 0 20px 0 20px;
@@ -19,7 +19,7 @@
 }
 
 
-@media screen and (max-width: 768px){
+@media screen and (min-width: 768px){
     .box-md{
         width: 80%;
         padding: 0 20px 0 20px;
@@ -27,23 +27,7 @@
     }
 }
     
-@media screen and (max-width: 992px){
-    .box-lg{
-        width: 80%;
-        padding: 0 20px 0 20px;
-        margin: 0 auto;
-    }
-}
-
-@media screen and (max-width: 992px){
-    .box-lg{
-        width: 80%;
-        padding: 0 20px 0 20px;
-        margin: 0 auto;
-    }
-}
-
-@media screen and (max-width: 992px){
+@media screen and (min-width: 1024){
     .box-lg{
         width: 80%;
         padding: 0 20px 0 20px;

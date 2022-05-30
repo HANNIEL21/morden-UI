@@ -124,4 +124,29 @@
         display: grid;
         justify-content: end;
     }
+
+    &-between{
+        display: grid;
+        justify-content: space-between;
+    }
+
+    &-around{
+        display: grid;
+        justify-content: space-around;
+    }
+
+    &-evenly{
+        display: grid;
+        justify-content: space-evenly;
+    }
+
+    &-stretch{
+        display: grid;
+        justify-content: stretch;
+    }
+
+    &-baseline{
+        display: grid;
+        justify-content: baseline;
+    }
 }
